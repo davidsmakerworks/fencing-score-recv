@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name FencingScoreRecv-rescue)(type Legacy)(uri ${KIPRJMOD}/FencingScoreRecv-rescue.lib)(options "")(descr ""))
+  (lib (name DavidsMakerWorks_Custom)(type Legacy)(uri ${KIPRJMOD}/../../kicad-libraries/DavidsMakerWorks_Custom.lib)(options "")(descr ""))
+)
