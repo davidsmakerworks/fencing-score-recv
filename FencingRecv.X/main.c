@@ -1,6 +1,6 @@
 /*
  * Remote Fencing Score Display - Receiver
- * Coypright (c) 2019 David Rice
+ * Copyright (c) 2019 David Rice
  *
  * Designed for PIC16F18323 or PIC16F18325
  * 
