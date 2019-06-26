@@ -63,6 +63,7 @@
 #include <stdbool.h>
 
 #include "nRF24L01P.h"
+#include "nRF24L01P-cfg.h"
 
 /* ===== CONFIGURABLE OPTIONS START HERE ===== */
 #define RF_CHANNEL      0x0CU
@@ -270,7 +271,7 @@ void main(void) {
     /* Enable global interrupts */
     INTCONbits.GIE = 1;
     
-    NRF24_CE = 1;
+    NRF24_CE_ACTIVE();
     
     while(1) {       
         SLEEP();
